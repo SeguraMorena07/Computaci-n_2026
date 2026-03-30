@@ -1,0 +1,50 @@
+#Class 1 16-03
+
+#data types
+
+number = 30  #tipo entero
+print(type(number))
+
+float_number = 22.5 #tipo flotante
+print(type(float_number))
+
+message = "Hello world" #tipo string
+print(type(message))
+
+boolean = True #tipo booleano
+print(type(boolean))
+
+#Estructuras de datos simples
+list_1 = [1, 2, 3, 4, 5] #tipo lista
+print(type(list_1))
+
+tuple_1 = (1, 2, 3, 4, 5) #tipo tupla
+print(type(tuple_1))    
+
+set_1 = {1, 2, 3, 4, 5} #tipo conjunto
+print(type(set_1))  
+
+dict_1 = {"name": "Alice", "age": 30} #tipo diccionario
+print(type(dict_1))
+
+
+#Operaciones aritmeticas
+
+num_1 = 10
+num_2 = 5 
+#Suma
+sum_result = num_1 + num_2
+print(sum_result)
+
+num_3 = 10
+num_4 = "40"
+result = num_3 + int(num_4) #convertir string a entero
+print(result)   
+
+#Formatos de salidas 
+print(F"El resultado de la suma es: {sum_result}") #concatenar string con variable
+
+print("El resultado es: {}".format(sum_result)) #concatenar string con variable usando format
+
+print("El resultado es: %d" % sum_result) #concatenar string con variable usando formato de cadena  
+
